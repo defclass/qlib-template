@@ -12,7 +12,6 @@ Add {{name}} dependence:
 Examples:
 
 ```clojure
-
 (map prn ["This" "is" "example"])
 
 ```
