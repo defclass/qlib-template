@@ -12,5 +12,6 @@
     (main/info "Generating fresh 'lein new' qlib project.")
     (->files data
              ["project.clj" (render "project.clj" data)]
+             ["README.md" (render "README.md" data)]
              [".gitignore" (render ".gitignore" data)]
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)])))
